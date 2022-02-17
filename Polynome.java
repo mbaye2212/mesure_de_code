@@ -128,6 +128,7 @@ public class Polynome {
 	
 	
 //////////////////////////Methode main////////////////////////////////////////////////////////	
+// Test des fonctionnalités de notre application
 
 	public static void main(String[] args) {
 		int[] t1= {1, 2,3};
@@ -145,11 +146,11 @@ public class Polynome {
 		
 		Polynome somme=p.addition(n);
 		System.out.println("");
-		System.out.println(somme.toString());
+		System.out.println(somme);
 		
 		Polynome derive=p.derive();
 		System.out.println("");
-		System.out.println(derive.toString());
+		System.out.println(derive);
 	}
 
 }
